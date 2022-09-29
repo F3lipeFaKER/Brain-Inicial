@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Brain</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+        <body>
+            <div class="bk">
+            <header>
+                <img src="https://brain.viptech.com.br/static/media/fullViptechLogo.4c3aa0a2ada182615575634b8fd51758.svg"/>
+            </header>
+
+            <div class="escrita">
+                <h1>Seja bem-vindo ao Brain</h1>
+                <span>A Inteligência Artificial Viptech</span><span class="ponto">.</span>
+
+            </div>
+
+            <div class="form">
+                <form>
+                    <input type="text" name="login" placeholder="E-mail"/>
+                    <input type="password" name="senha" placeholder="Senha"/>
+                    <input type="submit" name="entrar" value="Entrar"/>
+                </form>
+            </div>
+            <p>Version: v1.1.9</p>
+            <footer>
+                <img src="https://brain.viptech.com.br/static/media/viptech-logo.2d950877b064032d4ce9200bd1cdc949.svg" />
+            </footer>
+
+        </div><!--bk-->
+
+        </body>
+</html>
