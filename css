@@ -5,20 +5,33 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+   /* font-family: 'Montserrat', sans-serif;
     height: 100%;
     width: 100%;
     background-image: url(https://brain.viptech.com.br/static/media/login-background.a8b5d0f19f01d7c5e6a9.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+   /* -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center; 
+    align-items: center;*/
+    position: fixed;
+    background-image: url(https://brain.viptech.com.br/static/media/login-background.a8b5d0f19f01d7c5e6a9.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header img{
-    max-width: 200px;
-    max-height: 200px;
-    margin-top: 20px;
-    margin-left: 130px;
+    height: 170px;
+    width: 170px;
+    margin-left: 140px;
     
 }
 span{
@@ -26,7 +39,8 @@ span{
 }
 .escrita{
     color: white;
-    margin-top: 110px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 90px;
     font-size: 20px;
 }
@@ -80,17 +94,26 @@ input{
 }
 
 footer{
-    float: right;
-    margin-top: 220px;
-    margin-right: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 p{  
-    margin-top: 250px;
     font-size: 10px;
     color: white;
+    position: absolute;/* fixar objeto */
+    bottom: 0px; /* fixar objeto  tanto de pixel em baixo */
+    left: 0px;  /* fixar objeto  tanto de pixel na esquerda */
+    margin-bottom: 10px;
     margin-left: 10px;
-    float: left;
     
+    
+    
+    /*margin-left: 10px;
+    float: left;
+    margin-top: 250px;    CAGADINHA*/
 }
 
 
@@ -104,6 +127,7 @@ input[type=text],[type=password]{outline:none} /*retira bordas indesejadas*/
 
 @media screen and (max-width: 540px){
 
+
     form{
         margin-top: 20px;
         margin-left: 40px;
@@ -111,7 +135,7 @@ input[type=text],[type=password]{outline:none} /*retira bordas indesejadas*/
 
     .escrita{
         max-width: 400px;
-        margin-top: 70px;
+        margin-top: -50px;
         text-align: center;
         margin-left: 30px;
     }
@@ -127,7 +151,10 @@ input[type=text],[type=password]{outline:none} /*retira bordas indesejadas*/
     
     }*/
 
-
+    header img{
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
 
     span{
             display: none;
